@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  
   "author": "Kiranjeet",
   "license": "ISC",
   "dependencies": {
@@ -14,12 +13,10 @@
     "graphql": "^16.6.0",
     "lodash": "^4.17.21",
     "mongoose": "^7.3.0",
+    "node": "^20.3.1",
     "nodemon": "^2.0.22"
-
   },
-
-  "scripts":{
+  "scripts": {
     "start": "node app.js"
   }
-
 }
