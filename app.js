@@ -9,7 +9,7 @@ const schema = require('./server/schema/schema');
 const mongoose = require("mongoose")
 
 const app = express(); // instantiation
-const port = process.env.port || 4000;
+const port = process.env.PORT || 4000;
 
 //app.use(cors());
 
