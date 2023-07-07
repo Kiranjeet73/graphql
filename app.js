@@ -5,16 +5,16 @@ require('dotenv').config();
 
 
 const schema = require('./server/schema/schema');
-const testSchema = require('./server/schema/types_schema');
+//const testSchema = require('./server/schema/types_schema');
 const mongoose = require("mongoose")
 
 const app = express(); // instantiation
-const port = process.env.port ||8080;
+const port = process.env.port || 4000;
 
 //app.use(cors());
 
 app.use('/graphql', graphqlHTTP({
-   graphiql : true,
+    graphiql : true,
     schema:schema
 }))
 //console.log(process.env.ss);
